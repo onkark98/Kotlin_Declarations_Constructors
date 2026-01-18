@@ -12,4 +12,7 @@ fun main() {
 
     println(u1.name + " " + u1.age)
     println(u2.name + " " + u2.age)
+
+    val u3 = User(age = 30, name = "Bob")
+    println(u3.name + " " + u3.age)
 }
